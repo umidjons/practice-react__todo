@@ -7,7 +7,7 @@ export class VisibilityControl extends Component {
             <input className="form-check-input" type="checkbox"
                 checked={this.props.isChecked}
                 onChange={(e) => this.props.callback(e.target.checked)} />
-            <label class="form-check-label">Show {this.props.description}</label>
+            <label className="form-check-label">Show {this.props.description}</label>
         </div>
 
 }
